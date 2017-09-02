@@ -16,7 +16,7 @@ a) Data analysis
 
 --There are total 878049 obs.(rows) of  9 variables(cols)</br>
 
-Following is the screenshot of the dataset.
+--Following is the screenshot of the dataset.
 <img width="600" height="200" alt="data_screenshot" src="https://github.com/jaydeepchakraborty/kaggle_SFCrime/blob/master/img/DataScreenShot.png"/>
 
 From the figure it is visible that most of the columns are String. We have changed the followings in dataset.
@@ -25,3 +25,8 @@ We are replacing the datetime into two categories 00-12: 1, 12-24:2. Here we are
 
 2) we have done the same process for all other columns except X, Y : coordinates. Now it looks like following.
 <img width="600" height="200" alt="data_screenshot" src="https://github.com/jaydeepchakraborty/kaggle_SFCrime/blob/master/img/DataScreenShotUpdated.png"/>
+
+--Following is bar chart of frequency of target(Category) of the dataset. From the figure, we can see the data is imbalanced. We will use <b>SMOTE</b> to balance it.
+<img width="600" height="200" alt="data_screenshot" src="https://github.com/jaydeepchakraborty/kaggle_SFCrime/blob/master/img/data_freq.png"/>
+
+
