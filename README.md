@@ -26,7 +26,10 @@ We are replacing the datetime into two categories 00-12: 1, 12-24:2. Here we are
 2) we have done the same process for all other columns except X, Y : coordinates. Now it looks like following.
 <img width="600" height="200" alt="data_screenshot" src="https://github.com/jaydeepchakraborty/kaggle_SFCrime/blob/master/img/DataScreenShotUpdated.png"/>
 
---Following is bar chart of frequency of target(Category) of the dataset. From the figure, we can see the data is imbalanced. We will use <b>SMOTE</b> to balance it.
+--Following is bar chart of frequency of target(Category) of the dataset. From the figure, we can see the data is imbalanced. We will use <b>SMOTE</b> to balance it. We should not use SMOTE on testing set and it will be used only once.
 <img width="600" height="200" alt="data_screenshot" src="https://github.com/jaydeepchakraborty/kaggle_SFCrime/blob/master/img/data_freq.png"/>
+
+--Now we did not change the co-ordinates value, so we have to do normalize those columns.<br>
+[Normalization: rescaling data into range of [0,1]]
 
 
