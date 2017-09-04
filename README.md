@@ -42,12 +42,16 @@ We are replacing the datetime into two categories 00-12: 1, 12-24:2. Here we are
 <img width="600" height="200" alt="data_screenshot" src="https://github.com/jaydeepchakraborty/kaggle_SFCrime/blob/master/img/DataScreenShotUpdated.png"/>
 
 
+--Most of the data in the dataset are categorical.It is hard to plot histogram or box plot for each column. Standardization does not make sense here. We can plot a scatter plot for different Categories to under stand the pattern of the data. Now this dataset contains all factor features except (X,Y). we have used PCA to plot the scatter plot based on the primary component1(X,Y).
+
+<img width="600" height="200" alt="data_screenshot" src="https://github.com/jaydeepchakraborty/kaggle_SFCrime/blob/master/img/pca_.jpeg"/>
+
+-- Now we plot corelation matrix between X-Y. So it is clear X and Y are highly positive-corelated. We can remove any one of the column.
+<img width="600" height="200" alt="data_screenshot" src="https://github.com/jaydeepchakraborty/kaggle_SFCrime/blob/master/img/corr_.jpeg"/>
+
 
 --Following is bar chart of frequency of target(Category) of the dataset. From the figure, we can see the data is imbalanced. We will use <b>SMOTE</b> to balance it. We should not use SMOTE on testing set and it will be used only once.
 <img width="600" height="200" alt="data_screenshot" src="https://github.com/jaydeepchakraborty/kaggle_SFCrime/blob/master/img/data_freq.png"/>
-
-
---Most of the data in the dataset are categorical.It is hard to plot histogram or box plot for each column. Standardization does not make sense here. We can plot a scatter plot for different Categories to under stand the pattern of the data.
 
 
 
