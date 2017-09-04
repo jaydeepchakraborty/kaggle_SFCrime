@@ -51,7 +51,7 @@ We are replacing the datetime into two categories 00-12: 1, 12-24:2. Here we are
 
 
 --Following is bar chart of frequency of target(Category) of the dataset. From the figure, we can see the data is imbalanced. We will use <b>SMOTE</b> to balance it. We should not use SMOTE on testing set and it will be used only once.
-<img width="600" height="200" alt="data_screenshot" src="https://github.com/jaydeepchakraborty/kaggle_SFCrime/blob/master/img/data_freq.png"/>
+<img width="600" height="200" alt="data_screenshot" src="https://github.com/jaydeepchakraborty/kaggle_SFCrime/blob/master/img/df_.jpeg"/>
 
 
 
