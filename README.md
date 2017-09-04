@@ -7,6 +7,18 @@ This dataset contains incidents derived from SFPD Crime Incident Reporting syste
 
 Goal:
 ------
+Find the category of the Crime.
+
+Dates - timestamp of the crime incident<br>
+Category - category of the crime incident (only in train.csv). This is the target variable you are going to predict.<br>
+Descript - detailed description of the crime incident (only in train.csv)<br>
+DayOfWeek - the day of the week<br>
+PdDistrict - name of the Police Department District<br>
+Resolution - how the crime incident was resolved (only in train.csv)<br>
+Address - the approximate street address of the crime incident <br>
+X - Longitude<br>
+Y - Latitude<br>
+
 
 Project Modules:
 
